@@ -525,28 +525,15 @@
                 <h3 class="card-title serif mb-4">Wyślij zapytanie</h3>
                 <form
                   class="space-y-4"
-                  action="https://mail.self-hosting.pl/TWOJ-IDENTYFIKATOR"
+                  action="https://mail.selfhosting.pl/forms/d0dcb830-5b04-419f-81fb-e88808518353" <!-- wygeneruj losowe uuid i podmień obecne -->
                 >
-                  <div class="form-control w-full">
-                    <label class="label">
-                      <span class="label-text font-medium"
-                        >Imię i nazwisko</span
-                      >
-                    </label>
-                    <input
-                      type="text"
-                      placeholder="Jan Kowalski"
-                      class="input input-bordered w-full"
-                      required
-                    />
-                  </div>
-
                   <div class="form-control w-full">
                     <label class="label">
                       <span class="label-text font-medium">Email</span>
                     </label>
                     <input
                       type="email"
+                      name="email"
                       placeholder="email@example.com"
                       class="input input-bordered w-full"
                       required
@@ -558,6 +545,7 @@
                       <span class="label-text font-medium">Wiadomość</span>
                     </label>
                     <textarea
+                      name="message"
                       class="textarea textarea-bordered h-24 w-full"
                       placeholder="Opisz swoją sprawę..."
                     ></textarea>
