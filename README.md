@@ -39,4 +39,4 @@ Po prostu otwórz plik `index.html` w edytorze tekstu i zmień treść. Możesz 
 
 ## Formularz kontaktowy
 
-Strona używa serwisu <https://mail.self-hosting.pl> do obsługi formularza kontaktowego (wiadomości od klientów). To płatna usługa (15 zł/miesiąc), ale dzięki temu możesz odbierać wiadomości bez własnego serwera pocztowego.
+Strona używa serwisu <https://mail.selfhosting.pl> do obsługi formularza kontaktowego (wiadomości od klientów). To płatna usługa (15 zł/miesiąc), ale dzięki temu możesz odbierać wiadomości bez własnego serwera pocztowego.
